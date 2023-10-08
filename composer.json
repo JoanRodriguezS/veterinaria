@@ -1,0 +1,19 @@
+{
+    "name": "user/veterinaria",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^10.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "User\\Veterinaria\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Oskitar-Ale",
+            "email": "oscarvilca66@gmail.com"
+        }
+    ],
+    "require": {}
+}
