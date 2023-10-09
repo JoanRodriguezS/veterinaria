@@ -1,1 +1,4 @@
+/.vscode/
 /vendor/
+/cacert-2023-08-22.pem
+/.env
