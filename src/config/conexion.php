@@ -8,8 +8,8 @@
         PDO::MYSQL_ATTR_SSL_CA => $cSsl,
     ];
     try {
-        $pdo = new PDO($dsn, $dbUsername, $dbPassword,$options);
-        $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        $conexion = new PDO($dsn, $dbUsername, $dbPassword,$options);
+        $conexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         echo "Conexión segura exitosa a la base de datos MySQL.";
     } catch (PDOException $e) {
         die("Error de conexión a la base de datos: " . $e->getMessage());
