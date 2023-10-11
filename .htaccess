@@ -2,7 +2,7 @@ Options +FollowSymLinks
 RewriteEngine On
 DirectoryIndex src/views/index.php src/views/index.html
 
-RewriteCond %{REQUEST_URI} !^/views/
+RewriteCond %{REQUEST_URI} !^src/views/
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.*)$ src/views/$1 [L]

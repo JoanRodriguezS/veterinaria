@@ -11,4 +11,7 @@ $dbPassword = $_ENV['DB_PASSWORD'];
 $dbName = $_ENV['DB_NAME'];
 $cSsl = $_ENV['MYSQL_ATTR_SSL_CA'];
 
+// == 
+
+
 ?>
