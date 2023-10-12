@@ -14,5 +14,10 @@ En el panel de xampp darle click en config segun la imagen
 luego hacer click en la opcion httpd.conf
 ![image](https://github.com/Oskitar-Ale/veterinaria/assets/108702192/cdb49f4e-5f6b-4076-b859-bdb8789f8786)
 
-Buscar en el archivo DocumentRoot y editar C:/xampp/htdocs/veterinaria/ , si cambio el nombre del proyecto ->  C:/xampp/htdocs/nombre del proyecto/
+En el archivo, buscar DocumentRoot 
+
+
+
 ![image](https://github.com/Oskitar-Ale/veterinaria/assets/108702192/6f862bf0-1ac7-4979-bc3d-c20adad8759b)
+
+Y actualizar la ruta por  -->  C:/xampp/htdocs/veterinaria/ 
