@@ -20,4 +20,4 @@ En el archivo, buscar DocumentRoot
 
 ![image](https://github.com/Oskitar-Ale/veterinaria/assets/108702192/6f862bf0-1ac7-4979-bc3d-c20adad8759b)
 
-Y actualizar la ruta por  -->  C:/xampp/htdocs/veterinaria/ 
+Y actualizar la ruta por  -->  C:/xampp/htdocs/"nombre del proyecto"/ 
