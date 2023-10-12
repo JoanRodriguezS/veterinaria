@@ -218,7 +218,5 @@
 
 		<!-- Scripts -->
 		<?php include('./layouts/script.php'); ?>
-
-
 	</body>
 </html>

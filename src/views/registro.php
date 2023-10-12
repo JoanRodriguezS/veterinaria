@@ -1,58 +1,49 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animal land</title>
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="icon" href="images/logo.png">
-</head>
-
+<!-- Head-->
+<?php include('./layouts/head.php'); ?>
 <body>
+    <!-- nav -->
     <?php include('./layouts/nav.php'); ?>
 
     <div class="container">
         <div class="logo">
             <img class="logo_img" src="images/LogoVet.png" alt="" width="650">
         </div>
-        <form action="" class="form">
+        <form action="<?php echo $baseURL; ?>controllers/registro.controller.php" class="form" method="post">
             <div class="form__usuario">
-                <label for="">Usuario</label>
-                <input type="text" class="usuario">
+                <label for="">Nombre</label>
+                <input type="text" class="usuario" name="fName">
             </div>
             <div class="form__clave">
+                <label for="">Apellidos</label>
+                <input type="text" class="usuario" name="lName">
+            </div>
+            <div class="form__usuario">
+                <label for="">Nombre de Usuario</label>
+                <input type="text" class="usuario" name="username">
+            </div>
+            <div class="form__usuario">
+                <label for="">Dirección de correo electrónico</label>
+                <input type="email" class="usuario" name="email">
+            </div>
+            <div class="form__usuario">
                 <label for="">Contraseña</label>
-                <input id="clave" type="password" class="clave">
+                <input id="clave" type="password" class="clave" name="password">
                 <span id="ver" class="ver_clave"><i id="icono" class="fas fa-eye"></i></span>
             </div>
-
-            <div class="form__usuario">
-                <label for="">Usuario</label>
-                <input type="text" class="usuario">
-            </div>
-            <div class="form__usuario">
-                <label for="">Usuario</label>
-                <input type="text" class="usuario">
-            </div>
             <div class="form__boton">
-                <button class="boton">Ingresar</button>
+                <input class="boton" type="submit" value="Ingresar" name="enviar">
                 <button class="boton">Registrarse</button>
             </div>
+        
         </form>
     </div>
-    
-    <script src="js/main.js"></script>
-    
+        
 		<!-- Scripts -->
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/jquery.dropotron.min.js"></script>
-        <script src="assets/js/jquery.scrolly.min.js"></script>
-        <script src="assets/js/browser.min.js"></script>
-        <script src="assets/js/breakpoints.min.js"></script>
-        <script src="assets/js/util.js"></script>
-        <script src="assets/js/main.js"></script>
+		<?php include('./layouts/script.php'); ?>
+
 </body>
 
 </html>

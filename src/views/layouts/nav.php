@@ -20,10 +20,10 @@
         <li class="current"><a href="servicio.php">Servicios</a></li>
         <li><a href="blog.php">Blog</a></li>
         <li><a href="contacto.php">Contactos</a></li>
-        <li><a href="login.php">Cuenta</a>
+        <li><a href="">Cuenta</a>
             <ul>
-                <li><a href="">Encargado</a></li>
-                <li><a href="">Usuario</a></li>
+                <li><a href="registro.php">Encargado</a></li>
+                <li><a href="login.php">Usuario</a></li>
             </ul>
         </li>
     </ul>

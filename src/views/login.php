@@ -4,6 +4,7 @@
     <?php include('./layouts/head.php'); ?>
 
     <body>
+        <!-- nav -->
         <?php include('./layouts/nav.php'); ?>
 
         <div class="container">
