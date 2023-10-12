@@ -5,14 +5,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Animal land</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="icon" href="images/logo.png">
-		<link rel="stylesheet" href="css/estilos.css">
-	</head>
+	<?php include('./layouts/head.php'); ?>
 	<body class="homepage is-preload">
 		<div id="page-wrapper">
 
@@ -27,36 +20,7 @@
 				</header>
 
 			<!-- Nav -->
-				<nav id="nav">
-					<ul>
-						<li class="current"><a href="index.html">Inicio</a></li>
-						<li>
-							<a href="#">Tienda</a>
-							<ul>
-								<li><a href="#">Comida</a>
-									<ul>
-										<li><a href="#">Mimaskot</a></li>
-										<li><a href="#">Ricocan</a></li>
-										<li><a href="#">Dog Chow</a></li>
-										<li><a href="#">Pedigree</a></li>
-									</ul>
-								</li>
-								<li><a href="#">Medicina</a></li>
-								<li><a href="#">Juguetes</a></li>
-								<li><a href="#">Ropa</a></li>
-							</ul>
-						</li>
-						<li><a href="servicio.html">Servicios</a></li>
-						<li><a href="blog.html">Blog</a></li>
-						<li><a href="contacto.html">Contacto</a></li>
-						<li><a href="login.html">Cuenta</a>
-							<ul>
-								<li><a href="registro.php">Registro</a></li>
-								<li><a href="login.html">Usuario</a></li>
-							</ul>
-						</li>
-					</ul>
-				</nav>
+				<?php include('./layouts/nav.php'); ?>
 
 			<!-- Banner -->
 				<section id="banner">
@@ -255,63 +219,15 @@
 						</div>
 					</div>
 				</section>
-
+                <div id="contenido">
+                    <!-- CONTENIDO -->
+                </div>
 			<!-- Footer -->
-				<footer id="footer">
-					<div class="container">
-						<div class="row gtr-200">
-							<div class="col-12">
-
-								<!-- About -->
-									<section>
-										<h2 class="major"><span>What's this about?</span></h2>
-										<p>
-											This is <strong>TXT</strong>, yet another free responsive site template designed by
-											<a href="http://twitter.com/ajlkn">AJ</a> for <a href="http://html5up.net">HTML5 UP</a>. It's released under the
-											<a href="http://html5up.net/license/">Creative Commons Attribution</a> license so feel free to use it for
-											whatever you're working on (personal or commercial), just be sure to give us credit for the design.
-											That's basically it :)
-										</p>
-									</section>
-
-							</div>
-							<div class="col-12">
-
-								<!-- Contact -->
-									<section>
-										<h2 class="major"><span>Redes</span></h2>
-										<ul class="contact">
-											<li><a class="icon brands fa-facebook-f" href="https://web.facebook.com/"><span class="label">Facebook</span></a></li>
-											<li><a class="icon brands fa-whatsapp" href="https://web.whatsapp.com/"><span class="label">Whatsapp</span></a></li>
-											<li><a class="icon brands fa-twitter" href="https://twitter.com/"><span class="label">Twitter</span></a></li>
-											<li><a class="icon brands fa-instagram" href="https://www.instagram.com/"><span class="label">Instagram</span></a></li>
-											<li><a class="icon brands fa-linkedin-in" href="#"><span class="label">LinkedIn</span></a></li>
-										</ul>
-									</section>
-
-							</div>
-						</div>
-
-						<!-- Copyright -->
-							<div id="copyright">
-								<ul class="menu">
-									<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-								</ul>
-							</div>
-
-					</div>
-				</footer>
+			<?php include('./layouts/footer.php'); ?>
 
 		</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
+		<?php include('./layouts/script.php'); ?>
 	</body>
 </html>

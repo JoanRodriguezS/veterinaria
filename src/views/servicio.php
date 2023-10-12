@@ -5,13 +5,8 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Animal land</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="icon" href="images/logo.png">
-	</head>
+	<!-- Head-->
+	<?php include('./layouts/head.php'); ?>
 	<body class="is-preload">
 		<div id="page-wrapper">
 
@@ -26,36 +21,8 @@
 				</header>
 
 			<!-- Nav -->
-				<nav id="nav">
-					<ul>
-						<li><a href="index.html">Inicio</a></li>
-						<li>
-							<a href="#">Tienda</a>
-							<ul>
-								<li><a href="#">Comida</a>
-									<ul>
-										<li><a href="#">Mimaskot</a></li>
-										<li><a href="#">Ricocan</a></li>
-										<li><a href="#">Dog Chow</a></li>
-										<li><a href="#">Pedigree</a></li>
-									</ul>
-								</li>
-								<li><a href="#">Medicina</a></li>
-								<li><a href="#">Juguetes</a></li>
-								<li><a href="#">Ropa</a></li>
-							</ul>
-						</li>
-						<li class="current"><a href="servicio.html">Servicios</a></li>
-						<li><a href="blog.html">Blog</a></li>
-						<li><a href="contacto.html">Contactos</a></li>
-						<li><a href="login.html">Cuenta</a>
-							<ul>
-								<li><a href="">Encargado</a></li>
-								<li><a href="">Usuario</a></li>
-							</ul>
-						</li>
-					</ul>
-				</nav>
+				<?php include('./layouts/nav.php'); ?>
+
 
 			<!-- Main -->
 				<section id="main">
@@ -250,13 +217,6 @@
 		</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
+		<?php include('./layouts/script.php'); ?>
 	</body>
 </html>
