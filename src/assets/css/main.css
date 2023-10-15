@@ -6,7 +6,7 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-
+		
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -2312,7 +2312,7 @@ input, select, textarea {
 		margin: 0 auto;
 	}
 
-		#header .logo {
+		/* #header .logo {
 			position: relative;
 			text-align: center;
 			border-top: solid 5px #e7eae8;
@@ -2334,7 +2334,15 @@ input, select, textarea {
 			#header .logo p {
 				display: inline;
 				color: #C1CAC5;
-			}
+			} */
+
+
+
+/* logo */
+#logo {
+
+    height: 3rem;
+}			
 
 /* Nav */
 
@@ -2362,6 +2370,9 @@ input, select, textarea {
 		#nav ul {
 			position: relative;
 			z-index: 1001;
+			display: flex;
+			align-items: center;
+			justify-content: center;
 		}
 
 		#nav li {
@@ -2414,6 +2425,7 @@ input, select, textarea {
 				background: #b1ddab;
 				color: #fff;
 			}
+
 
 	.dropotron {
 		list-style: none;
@@ -2477,7 +2489,7 @@ input, select, textarea {
 
 	#banner {
 		position: relative;
-		background-image: url("images/overlay.png"), url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url("images/overlay.png"), url("images/overlay.png"), url("../../images/dog	.jpg");
 		background-position: top left, top left, center center;
 		background-repeat: repeat, repeat, no-repeat;
 		background-size: auto, auto, cover;
@@ -3103,4 +3115,37 @@ input, select, textarea {
 				font-size: 10pt;
 			}
 
+	}
+
+.sectionf ul {
+	list-style-type: none;
+	text-align: left;
+}
+
+
+
+
+.blog{
+	width: 100%;
+	height: 100%;
+}
+	.blog img{
+		max-width: 100%;
+
+	}
+
+
+.header{
+
+}
+.clogo{
+	display:  flex;
+	align-items: center;
+	justify-content: space-around;
+}
+	.clogo h1{
+		font-size: 4em;
+	}
+	.clogo img {
+		width: 380px;
 	}

@@ -5,13 +5,13 @@
 
                 <!-- About -->
                     <section>
-                        <h2 class="major"><span>What's this about?</span></h2>
+                        <h2 class="major"><span>Sobre Nosótros</span></h2>
                         <p>
-                            This is <strong>TXT</strong>, yet another free responsive site template designed by
-                            <a href="http://twitter.com/ajlkn">AJ</a> for <a href="http://html5up.net">HTML5 UP</a>. It's released under the
-                            <a href="http://html5up.net/license/">Creative Commons Attribution</a> license so feel free to use it for
-                            whatever you're working on (personal or commercial), just be sure to give us credit for the design.
-                            That's basically it :)
+                            ¡La salud de tu mascota es nuestra prioridad! Nos esforzamos para que tu mascota tenga lo mejor y pueda mantener su salud y así puedas disfrutar de hermosos momentos junto a él.
+
+                            ¡Somos PharMiVet, la primera farmacia veterinaria online del Perú!
+
+
                         </p>
                     </section>
 
@@ -20,25 +20,65 @@
 
                 <!-- Contact -->
                     <section>
-                        <h2 class="major"><span>Redes</span></h2>
-                        <ul class="contact">
-                            <li><a class="icon brands fa-facebook-f" href="https://web.facebook.com/"><span class="label">Facebook</span></a></li>
-                            <li><a class="icon brands fa-whatsapp" href="https://web.whatsapp.com/"><span class="label">Whatsapp</span></a></li>
-                            <li><a class="icon brands fa-twitter" href="https://twitter.com/"><span class="label">Twitter</span></a></li>
-                            <li><a class="icon brands fa-instagram" href="https://www.instagram.com/"><span class="label">Instagram</span></a></li>
-                            <li><a class="icon brands fa-linkedin-in" href="#"><span class="label">LinkedIn</span></a></li>
-                        </ul>
+                        <div style="display: flex; justify-content: space-around;">
+                            <div class="sectionf">
+
+                                <h5>Contáctanos</h5>
+                                <ul>
+                                    <li>
+                                        <strong>ILO</strong>
+                                        <br>
+                                        Whatsapp: +51 xxx xxx xxx
+                                    </li>
+                                    <br>
+                                    <li>
+                                        <i class="fa-solid fa-location-dot"></i>
+                                        Lorem ipsum dolor sit amet.
+                                    </li>
+                                    <br>
+                                    <li>
+                                        <strong>MOQUEGUA:</strong>
+                                        <br>
+                                        Whatsapp: +51 xxx xxx xxx
+                                    </li>
+                                    <br>
+                                    <li>
+                                        <i class="fa-solid fa-location-dot"></i>
+                                        Lorem ipsum dolor sit amet.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="sectionf">
+                                <h5>Horario de atención</h5>
+                                <ul>
+                                    <li>
+                                        <strong></strong>
+                                        <br>
+                                        Lunes a Sábados de 9 am a 6 pm
+                                        <br>
+                                        Emergencias 24 horas
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="sectionf">
+                                <h2>Siguenos</h2>
+                                <ul class="contact">
+                                    <li><a class="icon brands fa-facebook-f" href="https://web.facebook.com/"><span class="label">Facebook</span></a></li>
+                                    <li><a class="icon brands fa-whatsapp" href="https://web.whatsapp.com/"><span class="label">Whatsapp</span></a></li>
+                                    <li><a class="icon brands fa-twitter" href="https://twitter.com/"><span class="label">Twitter</span></a></li>
+                                    <li><a class="icon brands fa-instagram" href="https://www.instagram.com/"><span class="label">Instagram</span></a></li>
+                                    <li><a class="icon brands fa-linkedin-in" href="#"><span class="label">LinkedIn</span></a></li>
+                                </ul>
+                            </div>
+                            <div >
+                                <img src="http://localhost/src/images/libro.webp" alt="">
+                            </div>
+
+                        </div>
                     </section>
 
             </div>
         </div>
-
-        <!-- Copyright -->
-            <div id="copyright">
-                <ul class="menu">
-                    <li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-                </ul>
-            </div>
 
     </div>
 </footer>
