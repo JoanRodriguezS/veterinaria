@@ -45,7 +45,7 @@
 
 													<!-- Feature -->
 														<section class="box feature">
-															<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
+															<a href="#" class="image featured"><img src="<?php echo $baseURL; ?>images/pic06.jpg" alt="" /></a>
 															<h3><a href="#">Consulta Veterinaria Personalizada</a></h3>
 															<p>
 																Nuestros veterinarios expertos
@@ -59,7 +59,7 @@
 
 													<!-- Feature -->
 														<section class="box feature">
-															<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+															<a href="#" class="image featured"><img src="<?php echo $baseURL; ?>images/pic02.jpg" alt="" /></a>
 															<h3><a href="#">Cirugía Veterinaria de Vanguardia</a></h3>
 															<p>
 																En ANIMAL LAND, contamos con un equipo de cirujanos veterinarios altamente 
@@ -73,7 +73,7 @@
 
 													<!-- Feature -->
 														<section class="box feature">
-															<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+															<a href="#" class="image featured"><img src="<?php echo $baseURL; ?>images/pic03.jpg" alt="" /></a>
 															<h3><a href="#">Servicios de Emergencia</a></h3>
 															<p>
 																Ofrecemos servicios de emergencia las 24 horas para abordar situaciones críticas
@@ -86,7 +86,7 @@
 
 													<!-- Feature -->
 														<section class="box feature">
-															<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+															<a href="#" class="image featured"><img src="<?php echo $baseURL; ?>images/pic04.jpg" alt="" /></a>
 															<h3><a href="#">Radiografías y Diagnóstico por Imágenes</a></h3>
 															<p>
 																Nuestros servicios de diagnóstico por imágenes, como radiografías, son vitales 
@@ -100,7 +100,7 @@
 
 													<!-- Feature -->
 														<section class="box feature">
-															<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+															<a href="#" class="image featured"><img src="<?php echo $baseURL; ?>images/pic04.jpg" alt="" /></a>
 															<h3><a href="#">Laboratorio Clínico</a></h3>
 															<p>
 																En nuestro laboratorio clínico, realizamos análisis de sangre, orina y otros
@@ -115,7 +115,7 @@
 
 													<!-- Feature -->
 														<section class="box feature">
-															<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+															<a href="#" class="image featured"><img src="<?php echo $baseURL; ?>images/pic04.jpg" alt="" /></a>
 															<h3><a href="#">Experiencia con Animales Exóticos</a></h3>
 															<p>
 																Además de atender a perros y gatos, también tenemos experiencia en el cuidado
@@ -129,7 +129,7 @@
 
 													<!-- Feature -->
 														<section class="box feature">
-															<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+															<a href="#" class="image featured"><img src="<?php echo $baseURL; ?>images/pic04.jpg" alt="" /></a>
 															<h3><a href="#">Servicios de Esterilización y Castración</a></h3>
 															<p>
 																Nuestros servicios de esterilización y castración ayudan a controlar la 
@@ -143,7 +143,7 @@
 
 													<!-- Feature -->
 														<section class="box feature">
-															<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+															<a href="#" class="image featured"><img src="<?php echo $baseURL; ?>images/pic04.jpg" alt="" /></a>
 															<h3><a href="#">Consejería y Educación</a></h3>
 															<p>
 																Nuestros veterinarios ofrecen consejería y educación a los propietarios de 
@@ -153,12 +153,7 @@
 														
 
 												</div>												
-												<div class="col-12">
-													<ul class="actions">
-														<li><a href="#" class="button large">Do Something</a></li>
-														<li><a href="#" class="button alt large">Think About It</a></li>
-													</ul>
-												</div>
+										
 											</div>
 										</div>
 									</section>
@@ -169,50 +164,8 @@
 				</section>
 
 			<!-- Footer -->
-				<footer id="footer">
-					<div class="container">
-						<div class="row gtr-200">
-							<div class="col-12">
+			<?php include('./layouts/footer.php'); ?>
 
-								<!-- About -->
-									<section>
-										<h2 class="major"><span>What's this about?</span></h2>
-										<p>
-											This is <strong>TXT</strong>, yet another free responsive site template designed by
-											<a href="http://twitter.com/ajlkn">AJ</a> for <a href="http://html5up.net">HTML5 UP</a>. It's released under the
-											<a href="http://html5up.net/license/">Creative Commons Attribution</a> license so feel free to use it for
-											whatever you're working on (personal or commercial), just be sure to give us credit for the design.
-											That's basically it :)
-										</p>
-									</section>
-
-							</div>
-							<div class="col-12">
-
-								<!-- Contact -->
-									<section>
-										<h2 class="major"><span>Get in touch</span></h2>
-										<ul class="contact">
-											<li><a class="icon brands fa-facebook-f" href="#"><span class="label">Facebook</span></a></li>
-											<li><a class="icon brands fa-twitter" href="#"><span class="label">Twitter</span></a></li>
-											<li><a class="icon brands fa-instagram" href="#"><span class="label">Instagram</span></a></li>
-											<li><a class="icon brands fa-dribbble" href="#"><span class="label">Dribbble</span></a></li>
-											<li><a class="icon brands fa-linkedin-in" href="#"><span class="label">LinkedIn</span></a></li>
-										</ul>
-									</section>
-
-							</div>
-						</div>
-
-						<!-- Copyright -->
-							<div id="copyright">
-								<ul class="menu">
-									<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-								</ul>
-							</div>
-
-					</div>
-				</footer>
 
 		</div>
 

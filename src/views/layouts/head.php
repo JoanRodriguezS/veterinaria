@@ -1,4 +1,4 @@
-<?php require_once("../core/configGeneral.php");?>
+<?php require("../core/configGeneral.php");?>
 <head>
 	<title>Animal land</title>
 	<meta charset="utf-8" />

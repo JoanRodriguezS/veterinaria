@@ -11,12 +11,11 @@
 		<div id="page-wrapper">
 
 			<!-- Header -->
-				<header id="header">
-					<div class="logo container">
-						<div>
-							<h1><a href="index.html" id="logo">Animal land</a></h1>
-							<p>(Blog)</p>
-						</div>
+				<header class="header">
+					<div class="clogo">
+						<h1>BLOG</h1>
+						<img  src="http://localhost/src/images/headBlog.png" alt="">
+
 					</div>
 				</header>
 
@@ -35,64 +34,46 @@
 
 										<article class="box page-content">
 
-											<header>
-												<h2>Right Sidebar</h2>
-												<p>Semper amet scelerisque metus faucibus morbi congue mattis</p>
+											<header class="blog">
+												<a href=""><img src="http://localhost/src/images/perro-tumbado.jpg" alt=""></a>
+												<h2>Lobectomía pulmonar en perros y gatos</h2>
+												<p>Intervención y cuidados postoperatorio</p>
 												<ul class="meta">
 													<li class="icon fa-clock">5 days ago</li>
 													<li class="icon fa-comments"><a href="#">1,024</a></li>
 												</ul>
 											</header>
-
 											<section>
-												<span class="image featured"><img src="images/pic05.jpg" alt="" /></span>
+												<h3>¿Qué es una lobectomía pulmonar?</h3>
 												<p>
-													Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
-													Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
-													Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
-													consequat etiam lorem ipsum dolor sit amet nullam.
+													Una lobectomía pulmonar es un procedimiento quirúrgico que consiste en resección quirúrgica de 
+													uno o más lóbulos de los pulmones.
+												</p>
+												<strong>Los pulmones de los perros y gatos están divididos en lóbulos para maximizar su superficie y permitir una eficiencia respiratoria óptima.</strong>
+												<p>
+													Es una técnica quirúrgica que requiere un abordaje al tórax del paciente (toracotomía), y una anestesia general con ventilación mecánica para garantizar
+													que el pulmón contralateral (el del otro lado) mantenga su función.
 												</p>
 											</section>
+											<div>
+												<img src="<?php echo $baseURL; ?>/images/cirujano.png" alt="">
+											</div>
 
 											<section>
-												<h3>More intriguing information</h3>
+												<h3>¿Cuándo se realiza una lobectomía pulmonar en perros y gatos?</h3>
 												<p>
-													Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus
-													justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque lorem felis,
-													ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet
-													vulputate. Nulla quis nibh ipsum, sed egestas justo. Morbi ut ante mattis orci convallis tempor.
-													Etiam a lacus a lacus pharetra porttitor quis accumsan odio. Sed vel euismod nisi. Etiam convallis
-													rhoncus dui quis euismod. Maecenas lorem tellus, congue et condimentum ac, ullamcorper non sapien
-													vulputate. Nulla quis nibh ipsum, sed egestas justo. Morbi ut ante mattis orci convallis tempor.
-													Etiam a lacus a lacus pharetra porttitor quis accumsan odio. Sed vel euismod nisi. Etiam convallis
-													rhoncus dui quis euismod. Maecenas lorem tellus, congue et condimentum ac, ullamcorper non sapien.
-													Donec sagittis massa et leo semper a scelerisque metus faucibus. Morbi congue mattis mi.
-													Phasellus sed nisl vitae risus tristique volutpat. Cras rutrum commodo luctus.
-												</p>
-												<p>
-													Phasellus odio risus, faucibus et viverra vitae, eleifend ac purus. Praesent mattis, enim
-													quis hendrerit porttitor, sapien tortor viverra magna, sit amet rhoncus nisl lacus nec arcu.
-													Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt. Mauris dolor urna,
-													fringilla vel malesuada ac, dignissim eu mi. Praesent mollis massa ac nulla pretium pretium.
-													Etiam a lacus a lacus pharetra porttitor quis accumsan odio. Sed vel euismod nisi. Etiam convallis
-													rhoncus dui quis euismod. Maecenas lorem tellus, congue et condimentum ac, ullamcorper non sapien.
-													Donec sagittis massa et leo semper a scelerisque metus faucibus. Morbi congue mattis mi.
-													Maecenas tortor mauris, consectetur pellentesque dapibus eget, tincidunt vitae arcu.
-													Vestibulum purus augue, tincidunt sit amet iaculis id, porta eu purus.
-												</p>
-											</section>
+													Cuando uno de estos lóbulos pulmonares presenta lesiones o enfermedades que no pueden 
+													ser tratadas solo de forma médica, se realiza una lobectomía.
+													<br>
+													<br>
 
-											<section>
-												<h3>So in conclusion ...</h3>
-												<p>
-													Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus
-													justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque lorem felis,
-													ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet
-													vulputate. Nulla quis nibh ipsum, sed egestas justo. Morbi ut ante mattis orci convallis tempor.
-													Etiam a lacus a lacus pharetra porttitor quis accumsan odio. Sed vel euismod nisi. Etiam convallis
-													rhoncus dui quis euismod. Maecenas lorem tellus, congue et condimentum ac, ullamcorper non sapien.
-													Donec sagittis massa et leo semper a scelerisque metus faucibus. Morbi congue mattis mi.
-													Phasellus sed nisl vitae.
+													Los lóbulos pulmonares afectados, pueden presentar lesiones debidas a la migración de cuerpos extraños, abscesos, traumatismos, bullas, neumotórax espontáneo, torsión de lóbulo pulmonar o tumores, etc. Todas ellas se resuelven a priori con la intervención quirúrgica de la lobectomía
+													<br>
+													<br>
+													La intervención puede ser una lobectomía parcial, donde se extrae una porción del lóbulo pulmonar, o lobectomía total, donde se elimina completamente el lóbulo pulmonar afectado.
+													<br>
+													<br>													
+													<strong>“A pesar de la eliminación de parte del tejido pulmonar, los perros y gatos pueden mantener una función respiratoria normal incluso con hasta un 50% menos de parénquima pulmonar”.</strong>
 												</p>
 												<p>
 													Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt. Mauris dolor urna,
@@ -101,8 +82,45 @@
 													Vestibulum purus augue, tincidunt sit amet iaculis id, porta eu purus.
 												</p>
 											</section>
+											<div>
+												<img src="<?php echo $baseURL; ?>/images/toracotomia.png" alt="">
+											</div>
 
 										</article>
+										<div>
+											<h3>¿Te ha resultado interesante?</h3>
+											<strong>Deja una respuesta</strong>
+											<p>
+												Tu dirección de correo electrónico no será publicada. Los campos obligatorios están marcados con *
+											</p>
+										</div>
+										<h3>Ultimos comentarios</h3>		
+										<hr>
+										<?php require('../controllers/mostrarpost.controllers.php')?>
+
+										<?php
+											foreach ($registros as $registro) {
+												echo '<strong><br>' . htmlspecialchars($registro['username']) . '</strong>';
+												echo '<p>' . htmlspecialchars($registro['comment']) . '</p>';
+												echo '<hr>';
+											}
+											?>
+
+										<form class="form" method="POST" action="<?php echo $baseURL; ?>controllers/post.controller.php">
+											<label for="comment" class="label">Comentario</label>
+											<textarea type="text" name="comment" class="input"></textarea>
+											<br>
+
+											<label for="username" class="label">Nombre</label>
+											<input type="text" id="username" name="username" required="" class="input">
+											<br>
+
+											<label for="email" class="label">Email</label>
+											<input type="email" id="email" name="email" required="" class="input">
+											<br>
+
+											<button type="submit" class="submit">Publicar el Comentario</button>
+										</form>
 
 								</div>
 							</div>
@@ -170,125 +188,13 @@
 
 								</div>
 							</div>
-							<div class="col-12">
 
-								<!-- Features -->
-									<section class="box features">
-										<h2 class="major"><span>A Major Heading</span></h2>
-										<div>
-											<div class="row">
-												<div class="col-3 col-6-medium col-12-small">
-
-													<!-- Feature -->
-														<section class="box feature">
-															<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
-															<h3><a href="#">A Subheading</a></h3>
-															<p>
-																Phasellus quam turpis, feugiat sit amet ornare in, a hendrerit in
-																lectus dolore. Praesent semper mod quis eget sed etiam eu ante risus.
-															</p>
-														</section>
-
-												</div>
-												<div class="col-3 col-6-medium col-12-small">
-
-													<!-- Feature -->
-														<section class="box feature">
-															<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-															<h3><a href="#">Another Subheading</a></h3>
-															<p>
-																Phasellus quam turpis, feugiat sit amet ornare in, a hendrerit in
-																lectus dolore. Praesent semper mod quis eget sed etiam eu ante risus.
-															</p>
-														</section>
-
-												</div>
-												<div class="col-3 col-6-medium col-12-small">
-
-													<!-- Feature -->
-														<section class="box feature">
-															<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-															<h3><a href="#">And Another</a></h3>
-															<p>
-																Phasellus quam turpis, feugiat sit amet ornare in, a hendrerit in
-																lectus dolore. Praesent semper mod quis eget sed etiam eu ante risus.
-															</p>
-														</section>
-
-												</div>
-												<div class="col-3 col-6-medium col-12-small">
-
-													<!-- Feature -->
-														<section class="box feature">
-															<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-															<h3><a href="#">And One More</a></h3>
-															<p>
-																Phasellus quam turpis, feugiat sit amet ornare in, a hendrerit in
-																lectus dolore. Praesent semper mod quis eget sed etiam eu ante risus.
-															</p>
-														</section>
-
-												</div>
-												<div class="col-12">
-													<ul class="actions">
-														<li><a href="#" class="button large">Do Something</a></li>
-														<li><a href="#" class="button alt large">Think About It</a></li>
-													</ul>
-												</div>
-											</div>
-										</div>
-									</section>
-
-							</div>
 						</div>
 					</div>
 				</section>
 
 			<!-- Footer -->
-				<footer id="footer">
-					<div class="container">
-						<div class="row gtr-200">
-							<div class="col-12">
-
-								<!-- About -->
-									<section>
-										<h2 class="major"><span>What's this about?</span></h2>
-										<p>
-											This is <strong>TXT</strong>, yet another free responsive site template designed by
-											<a href="http://twitter.com/ajlkn">AJ</a> for <a href="http://html5up.net">HTML5 UP</a>. It's released under the
-											<a href="http://html5up.net/license/">Creative Commons Attribution</a> license so feel free to use it for
-											whatever you're working on (personal or commercial), just be sure to give us credit for the design.
-											That's basically it :)
-										</p>
-									</section>
-
-							</div>
-							<div class="col-12">
-
-								<!-- Contact -->
-									<section>
-										<h2 class="major"><span>Get in touch</span></h2>
-										<ul class="contact">
-											<li><a class="icon brands fa-facebook-f" href="#"><span class="label">Facebook</span></a></li>
-											<li><a class="icon brands fa-twitter" href="#"><span class="label">Twitter</span></a></li>
-											<li><a class="icon brands fa-instagram" href="#"><span class="label">Instagram</span></a></li>
-											<li><a class="icon brands fa-dribbble" href="#"><span class="label">Dribbble</span></a></li>
-											<li><a class="icon brands fa-linkedin-in" href="#"><span class="label">LinkedIn</span></a></li>
-										</ul>
-									</section>
-
-							</div>
-						</div>
-
-						<!-- Copyright -->
-							<div id="copyright">
-								<ul class="menu">
-									<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-								</ul>
-							</div>
-
-					</div>
-				</footer>
+			<?php include('./layouts/footer.php'); ?>
 
 		</div>
 
